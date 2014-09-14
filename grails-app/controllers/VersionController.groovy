@@ -1,0 +1,6 @@
+
+class VersionController {
+
+    def index = {
+    }
+}

@@ -1,0 +1,14 @@
+<plugin name='include' version='0.3'>
+  <author>Daniel Latorre</author>
+  <authorEmail>dani@danilat.com</authorEmail>
+  <title>This plugin adds include behaviour to Grails application.</title>
+  <documentation>http://grails.org/Include+Plugin</documentation>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>spring.resources</resource>
+    <resource>UrlMappings</resource>
+    <resource>IncludeTagLib</resource>
+  </resources>
+</plugin>

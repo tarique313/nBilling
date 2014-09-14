@@ -1,0 +1,14 @@
+<plugin name='cookie' version='0.2' grailsVersion='1.1.1 &gt; *'>
+  <author>Dale Wiggins</author>
+  <authorEmail>codehaus@sc.dalew.com</authorEmail>
+  <title>Makes dealing with cookies easy</title>
+  <description>\
+Provides an injectable service and tag to easily get, set, and delete cookies with one line
+</description>
+  <documentation>http://grails.org/plugin/cookie</documentation>
+  <resources>
+    <resource>com.studentuniverse.grails.plugins.cookie.services.CookieService</resource>
+    <resource>com.studentuniverse.grails.plugins.cookie.taglib.CookieTagLib</resource>
+  </resources>
+  <dependencies />
+</plugin>

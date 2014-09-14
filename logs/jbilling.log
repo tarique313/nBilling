@@ -1,0 +1,50 @@
+2014-09-10 10:23:51,543 DEBUG [com.sapienter.jbilling.common.SystemProperties] System properties loaded from: D:\jbilling-community-3.0.2\webapps\nbilling\WEB-INF\classes\jbilling.properties
+2014-09-10 10:23:51,544 DEBUG [com.sapienter.jbilling.common.SystemProperties] Resolved jbilling resources directory to: D:\jbilling-community-3.0.2\resources\
+2014-09-10 10:23:55,526 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] total classes = 0
+2014-09-10 10:23:55,526 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Processing 0 scheduled tasks for entity 1
+2014-09-10 10:23:55,584 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] Looking for table + pluggable_task_type_category
+2014-09-10 10:23:55,628 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] total classes = 2
+2014-09-10 10:23:55,628 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Processing 2 scheduled tasks for entity 10
+2014-09-10 10:23:55,628 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2014-09-10 10:23:55,634 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2014-09-10 10:23:55,735 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] Scheduling billing process from jbilling.properties ...
+2014-09-10 10:23:55,735 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Scheduled: [billing process: start: , end: null, repeat: infinite, interval: 720 mins]
+2014-09-10 10:23:55,735 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Applying task com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2014-09-10 10:23:55,735 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Creating a new instance of com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2014-09-10 10:23:55,736 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] Scheduling ageing process from jbilling.properties ...
+2014-09-10 10:23:55,736 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Scheduled: [ageing process: entity 10, start: , end: null, repeat: infinite, interval: 720 mins]
+2014-09-10 10:23:55,736 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Starting the job scheduler
+2014-09-10 10:26:47,211 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] Request is to process authentication
+2014-09-10 10:26:47,299 DEBUG [com.sapienter.jbilling.server.user.UserBL] Reading permisions for user 10
+2014-09-10 10:26:47,360 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] Looking for table + role
+2014-09-10 10:26:47,403 DEBUG [com.sapienter.jbilling.client.authentication.util.SecuritySession] Setting locale for Spring contexts: en_BD
+2014-09-10 10:26:47,403 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@cb549ec4: Principal: CompanyUserDetails{id=10, username='rajesh;10', mainRoleId=2, companyId=10, currencyId=1, languageId=1, enabled=true, accountExpired=false, credentialsExpired=false, accountLocked=false}; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffde5d4: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: C0F10FA39A3B5A07F52E1D7C8E19463A; Granted Authorities: API_120, BILLING_80, CUSTOMER_10, CUSTOMER_11, CUSTOMER_12, CUSTOMER_13, CUSTOMER_14, CUSTOMER_15, CUSTOMER_16, INVOICE_70, INVOICE_71, INVOICE_72, INVOICE_73, INVOICE_74, MENU_90, MENU_91, MENU_92, MENU_93, MENU_94, MENU_95, MENU_96, MENU_97, MENU_98, MENU_99, ORDER_20, ORDER_21, ORDER_22, ORDER_23, ORDER_24, ORDER_25, ORDER_26, ORDER_27, ORDER_28, PAYMENT_30, PAYMENT_31, PAYMENT_32, PAYMENT_33, PAYMENT_34, PAYMENT_35, PAYMENT_36, PLAN_60, PLAN_61, PLAN_62, PLAN_63, PRODUCT_40, PRODUCT_41, PRODUCT_42, PRODUCT_43, PRODUCT_44, PRODUCT_CATEGORY_50, PRODUCT_CATEGORY_51, PRODUCT_CATEGORY_52, ROLE_SUPER_USER
+2014-09-10 10:26:47,742 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] Looking for table + currency
+2014-09-10 10:26:47,759 INFO  [com.sapienter.jbilling.common.JNDILookup] Default Context set
+2014-09-10 10:26:47,759 INFO  [com.sapienter.jbilling.common.JNDILookup] New EJBFactory created.
+2014-09-10 11:02:03,276 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Shutting down the job scheduler
+2014-09-10 11:06:16,469 DEBUG [com.sapienter.jbilling.common.SystemProperties] System properties loaded from: D:\jbilling-community-3.0.2\webapps\nbilling\WEB-INF\classes\jbilling.properties
+2014-09-10 11:06:16,471 DEBUG [com.sapienter.jbilling.common.SystemProperties] Resolved jbilling resources directory to: D:\jbilling-community-3.0.2\resources\
+2014-09-10 11:06:20,468 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] total classes = 0
+2014-09-10 11:06:20,468 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Processing 0 scheduled tasks for entity 1
+2014-09-10 11:06:20,649 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] Looking for table + pluggable_task_type_category
+2014-09-10 11:06:20,718 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] total classes = 2
+2014-09-10 11:06:20,718 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Processing 2 scheduled tasks for entity 10
+2014-09-10 11:06:20,718 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2014-09-10 11:06:20,723 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2014-09-10 11:06:20,809 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] Scheduling billing process from jbilling.properties ...
+2014-09-10 11:06:20,809 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Scheduled: [billing process: start: , end: null, repeat: infinite, interval: 720 mins]
+2014-09-10 11:06:20,809 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Applying task com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2014-09-10 11:06:20,809 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Creating a new instance of com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2014-09-10 11:06:20,810 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] Scheduling ageing process from jbilling.properties ...
+2014-09-10 11:06:20,810 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Scheduled: [ageing process: entity 10, start: , end: null, repeat: infinite, interval: 720 mins]
+2014-09-10 11:06:20,810 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Starting the job scheduler
+2014-09-10 11:07:47,587 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] Request is to process authentication
+2014-09-10 11:07:47,882 DEBUG [com.sapienter.jbilling.server.user.UserBL] Reading permisions for user 10
+2014-09-10 11:07:48,262 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] Looking for table + role
+2014-09-10 11:07:48,436 DEBUG [com.sapienter.jbilling.client.authentication.util.SecuritySession] Setting locale for Spring contexts: en_BD
+2014-09-10 11:07:48,437 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@421eec4b: Principal: CompanyUserDetails{id=10, username='rajesh;10', mainRoleId=2, companyId=10, currencyId=1, languageId=1, enabled=true, accountExpired=false, credentialsExpired=false, accountLocked=false}; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@0: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 1D12E6DAE8F3CD9C3B13AC96A5D95D11; Granted Authorities: API_120, BILLING_80, CUSTOMER_10, CUSTOMER_11, CUSTOMER_12, CUSTOMER_13, CUSTOMER_14, CUSTOMER_15, CUSTOMER_16, INVOICE_70, INVOICE_71, INVOICE_72, INVOICE_73, INVOICE_74, MENU_90, MENU_91, MENU_92, MENU_93, MENU_94, MENU_95, MENU_96, MENU_97, MENU_98, MENU_99, ORDER_20, ORDER_21, ORDER_22, ORDER_23, ORDER_24, ORDER_25, ORDER_26, ORDER_27, ORDER_28, PAYMENT_30, PAYMENT_31, PAYMENT_32, PAYMENT_33, PAYMENT_34, PAYMENT_35, PAYMENT_36, PLAN_60, PLAN_61, PLAN_62, PLAN_63, PRODUCT_40, PRODUCT_41, PRODUCT_42, PRODUCT_43, PRODUCT_44, PRODUCT_CATEGORY_50, PRODUCT_CATEGORY_51, PRODUCT_CATEGORY_52, ROLE_SUPER_USER
+2014-09-10 11:07:48,815 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] Looking for table + currency
+2014-09-10 11:07:48,915 INFO  [com.sapienter.jbilling.common.JNDILookup] Default Context set
+2014-09-10 11:07:48,915 INFO  [com.sapienter.jbilling.common.JNDILookup] New EJBFactory created.
+2014-09-10 11:21:32,325 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Shutting down the job scheduler

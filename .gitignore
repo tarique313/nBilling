@@ -1,0 +1,7 @@
+activemq-data/*
+.metadata/*
+.settings/*
+webapps/*
+test/*
+tomcat_docs/*
+logs/*	

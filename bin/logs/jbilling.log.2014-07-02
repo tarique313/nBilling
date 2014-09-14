@@ -1,0 +1,29 @@
+2014-07-02 11:01:20,518 DEBUG [com.sapienter.jbilling.common.SystemProperties] System properties loaded from: C:\Users\Lenovo\Downloads\Compressed\jbilling-community-3.0.2\jbilling\jbilling.properties
+2014-07-02 11:01:20,520 DEBUG [com.sapienter.jbilling.common.SystemProperties] Resolved jbilling resources directory to: C:\Users\Lenovo\Downloads\Compressed\jbilling-community-3.0.2\jbilling\resources\
+2014-07-02 11:01:25,450 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] Looking for table + pluggable_task_type_category
+2014-07-02 11:01:25,511 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] total classes = 2
+2014-07-02 11:01:25,511 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Processing 2 scheduled tasks for entity 1
+2014-07-02 11:01:25,511 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2014-07-02 11:01:25,697 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2014-07-02 11:01:25,872 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] Scheduling billing process from jbilling.properties ...
+2014-07-02 11:01:25,872 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Scheduled: [billing process: start: , end: null, repeat: infinite, interval: 720 mins]
+2014-07-02 11:01:25,872 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Applying task com.sapienter.jbilling.server.mediation.task.MediationProcessTask
+2014-07-02 11:01:25,875 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Creating a new instance of com.sapienter.jbilling.server.mediation.task.MediationProcessTask
+2014-07-02 11:01:25,876 DEBUG [com.sapienter.jbilling.server.mediation.task.MediationProcessTask] Scheduling mediation process from jbilling.properties ...
+2014-07-02 11:01:25,876 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Scheduled: [mediation process: start: , end: null, repeat: infinite, interval: 720 mins]
+2014-07-02 11:01:25,876 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Starting the job scheduler
+2014-07-02 11:05:22,879 DEBUG [com.sapienter.jbilling.common.SystemProperties] System properties loaded from: C:\Users\Lenovo\Downloads\Compressed\jbilling-community-3.0.2\jbilling\jbilling.properties
+2014-07-02 11:05:22,880 DEBUG [com.sapienter.jbilling.common.SystemProperties] Resolved jbilling resources directory to: C:\Users\Lenovo\Downloads\Compressed\jbilling-community-3.0.2\jbilling\resources\
+2014-07-02 11:05:26,066 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] Looking for table + pluggable_task_type_category
+2014-07-02 11:05:26,105 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] total classes = 2
+2014-07-02 11:05:26,105 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Processing 2 scheduled tasks for entity 1
+2014-07-02 11:05:26,105 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2014-07-02 11:05:26,111 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2014-07-02 11:05:26,200 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] Scheduling billing process from jbilling.properties ...
+2014-07-02 11:05:26,200 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Scheduled: [billing process: start: , end: null, repeat: infinite, interval: 720 mins]
+2014-07-02 11:05:26,201 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Applying task com.sapienter.jbilling.server.mediation.task.MediationProcessTask
+2014-07-02 11:05:26,201 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] Creating a new instance of com.sapienter.jbilling.server.mediation.task.MediationProcessTask
+2014-07-02 11:05:26,203 DEBUG [com.sapienter.jbilling.server.mediation.task.MediationProcessTask] Scheduling mediation process from jbilling.properties ...
+2014-07-02 11:05:26,203 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Scheduled: [mediation process: start: , end: null, repeat: infinite, interval: 720 mins]
+2014-07-02 11:05:26,203 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Starting the job scheduler
+2014-07-02 11:06:14,162 DEBUG [com.sapienter.jbilling.server.util.Bootstrap] Shutting down the job scheduler
