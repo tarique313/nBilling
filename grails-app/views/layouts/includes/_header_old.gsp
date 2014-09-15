@@ -16,15 +16,6 @@
 
 <%@ page import="com.sapienter.jbilling.common.Constants; jbilling.SearchType" %>
 
-<%--
-  Page header for all common jBilling layouts.
-
-  This contains the jBilling top-navigation bar, search form and main navigation menu.
-
-  @author Brian Cowdery
-  @since  23-11-2010
---%>
-
 <!-- header -->
 <div id="header">
     <h1><a href="${resource(dir:'')}"></a></h1>
